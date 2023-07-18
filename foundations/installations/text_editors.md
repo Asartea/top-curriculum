@@ -51,7 +51,7 @@ rm code-latest.deb
 ~~~
 
 #### Step 4: Using VSCode
-   
+
 You can start VSCode in two ways,
 
    - Click **Visual Studio Code** from the Applications menu
@@ -89,6 +89,50 @@ code
 
 </details>
 
+<details markdown="block">
+<summary class="dropDown-header">WSL</summary>
+
+
+#### Step 1: Install VSCode
+
+
+
+   - Follow the instructions on [the Visual Studio Code website](https://code.visualstudio.com/docs/setup/windows) to install VSCode.
+
+
+
+#### Step 2: Delete the installer file
+
+
+
+   - Open **File Explorer**
+
+   - Go to the **Downloads** folder
+
+   - Drag **VSCodeUserSetup-{version}.exe** to the trash
+
+
+
+#### Step 4: Install WSL Extension
+
+
+
+   - Open Visual Studio Code
+   - Navigate to the extensions tab
+   - Find and install the [WSL exstention](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
+
+#### Step 5: Ensure that WSL can correctly open VSCode
+  -  Open a new WSL terminal
+  - Run the following command to open a new VSCode window
+
+~~~bash
+code
+~~~
+- After a few moments a new VSCode window should open, and VSCode should provide a notification that its opening in WSL
+
+</details>
+
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -101,4 +145,4 @@ code
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 * [VSCode docs](https://code.visualstudio.com/docs) are a great place to refer to for any of your queries related to VSCode.
-* These handy little PDFs on VSCode's [shortcuts for linux](https://go.microsoft.com/fwlink/?linkid=832144) and [shortcuts for macOS](https://go.microsoft.com/fwlink/?linkid=832143) are a great resource to help make your VSCode experience smoother and more efficient.
+* These handy little PDFs on VSCode's [shortcuts for Linux](https://go.microsoft.com/fwlink/?linkid=832144), [shortcuts for macOS](https://go.microsoft.com/fwlink/?linkid=832143), and [shortcuts for Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf) are a great resource to help make your VSCode experience smoother and more efficient.
