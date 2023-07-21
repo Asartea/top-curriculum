@@ -92,43 +92,31 @@ code
 <details markdown="block">
 <summary class="dropDown-header">WSL</summary>
 
-
 #### Step 1: Install VSCode
 
-
-
-   - Follow the instructions on [the Visual Studio Code website](https://code.visualstudio.com/docs/setup/windows) to install VSCode.
-
-
+   - Follow the instructions on [the Visual Studio Code website](https://code.visualstudio.com/docs/setup/windows) to install VSCode.
 
 #### Step 2: Delete the installer file
 
-
-
-   - Open **File Explorer**
-
-   - Go to the **Downloads** folder
-
-   - Drag **VSCodeUserSetup-{version}.exe** to the trash
-
-
+   - Open **File Explorer**
+   - Go to the **Downloads** folder
+   - Drag **VSCodeUserSetup-{version}.exe** to the trash
 
 #### Step 4: Install WSL Extension
-
-
 
    - Open Visual Studio Code
    - Navigate to the extensions tab
    - Find and install the [WSL exstention](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
 
 #### Step 5: Ensure that WSL can correctly open VSCode
-  -  Open a new WSL terminal
-  - Run the following command to open a new VSCode window
+   -  Open a new WSL terminal
+   - Run the following command to open a new VSCode window
 
 ~~~bash
 code
 ~~~
-- After a few moments a new VSCode window should open, and VSCode should provide a notification that its opening in WSL
+
+   - After a few moments a new VSCode window should open, and VSCode should provide a notification that its opening in WSL
 
 </details>
 
